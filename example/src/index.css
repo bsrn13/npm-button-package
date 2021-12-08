@@ -34,26 +34,27 @@ body {
   color: #fff;
   border-style: none;
 }
-.primary:hover{
+.primary:hover, .primary:focus{
   background-color: #40a9ff;;
 }
 
-.default {
+.default{
   cursor: pointer;
   background-color: #fff;
 }
-.default:hover {
+.default:hover, .default:focus {
   border-color: #1890ff;
   color: #1890ff;
 }
+
 .link{
   cursor: pointer;
   background-color: #fff;
   border-style: none;
   color: #1890ff;
 }
-.link:hover {
-  color: #499ae6;
+.link:hover, .link:focus {
+  color: #6cade9;
 }
 
 .text{
@@ -63,7 +64,7 @@ body {
   border-color: transparent;
   color: #000;
 }
-.text:hover {
+.text:hover, .text:focus {
   background-color: whitesmoke;
 }
 
@@ -73,7 +74,7 @@ body {
   color: #000;
   border-style: dashed;
 }
-.dashed:hover {
+.dashed:hover, .dashed:focus {
   border-color: #1890ff;
   color: #1890ff;
 }
